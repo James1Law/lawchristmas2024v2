@@ -14,7 +14,7 @@ li {
 .App {
   text-align: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #ffe4e4 100%);
+  background: linear-gradient(135deg, #02500b 0%, #2c3e50 100%);
   padding: 10px;
   font-family: 'Lato', sans-serif;
 }
@@ -34,6 +34,7 @@ li {
   font-size: 2.1rem;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #006400;
 }
 
 .App-header h2 {
