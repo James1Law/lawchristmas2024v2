@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './styles/Christmas.css';
 import WishListCard from './components/WishListCard';
 import JumpToList from './components/JumpToList';
 import ScrollToTop from './components/ScrollToTop';
@@ -11,7 +12,11 @@ function App() {
   return (
     <div className="App">
       <Snow />
-      <header className="App-header">
+      <div className="twinkle" style={{ top: '10%', left: '20%' }}></div>
+      <div className="twinkle" style={{ top: '30%', left: '80%' }}></div>
+      <div className="twinkle" style={{ top: '70%', left: '15%' }}></div>
+      <div className="twinkle" style={{ top: '50%', left: '90%' }}></div>
+      <header className="App-header floating">
         <h1>Law Family Christmas 2024</h1>
         <Countdown />
       </header>

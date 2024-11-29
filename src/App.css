@@ -17,10 +17,19 @@ li {
   background: linear-gradient(135deg, #02500b 0%, #2c3e50 100%);
   padding: 10px;
   font-family: 'Lato', sans-serif;
+  background-image: 
+    linear-gradient(135deg, #02500b 0%, #2c3e50 100%),
+    url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M20 18l-8-8h16l-8 8zm0 4l8 8H12l8-8z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .App-header {
-  background: linear-gradient(160deg, #c41e3a 0%, #8b0000 100%);
+  background: repeating-linear-gradient(
+    45deg,
+    #c41e3a,
+    #c41e3a 10px,
+    #8b0000 10px,
+    #8b0000 20px
+  );
   padding: 0.9rem;
   margin-bottom: 1rem;
   border-radius: 12px;
@@ -29,12 +38,12 @@ li {
 }
 
 .App-header h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 2.1rem;
+  font-family: 'Mountains of Christmas', cursive;
+  color: white;
+  font-weight: 700;
+  font-size: 2.5rem;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  color: #006400;
 }
 
 .App-header h2 {
@@ -60,7 +69,9 @@ li {
   padding: 20px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
-  border: 2px solid rgba(44, 85, 48, 0.1);
+  border: 2px solid #c41e3a;
+  background: linear-gradient(to bottom, white 0%, #f8f8f8 100%);
+  position: relative;
 }
 
 .family-section:hover {
@@ -68,8 +79,17 @@ li {
   border-color: rgba(44, 85, 48, 0.2);
 }
 
+.family-section::before {
+  content: '🎄';
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+
 .family-title {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Mountains of Christmas', cursive;
   font-weight: 700;
   color: #2c5530;
   font-size: 1.8rem;
