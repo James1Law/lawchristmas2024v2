@@ -1,0 +1,119 @@
+.wishlist-card {
+  background: linear-gradient(145deg, white, #fff8f8);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(196, 30, 58, 0.1);
+}
+
+.wishlist-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.wishlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #c41e3a20, #2c553020) 1;
+}
+
+.name-emoji {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-emoji h3 {
+  margin: 0;
+  color: #234527;
+  font-size: 1.4rem;
+}
+
+.emoji {
+  font-size: 1.8rem;
+}
+
+.wishlist-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.wishlist-item {
+  padding: 12px;
+  margin: 6px 0;
+  background: linear-gradient(145deg, #f8f9fa, #f0f7f1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.2s ease;
+  text-align: left;
+}
+
+.wishlist-item:hover {
+  background: linear-gradient(145deg, #f0f7f1, #e8f0e9);
+}
+
+.item-name {
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+.item-link {
+  color: #c41e3a;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 15px;
+  background: rgba(196, 30, 58, 0.1);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.item-link:hover {
+  background: rgba(196, 30, 58, 0.15);
+  color: #a01830;
+}
+
+@media (max-width: 768px) {
+  .wishlist-card {
+    padding: 12px;
+    margin: 8px 0;
+  }
+
+  .wishlist-header {
+    margin-bottom: 10px;
+  }
+
+  .name-emoji h3 {
+    font-size: 1.2rem;
+  }
+
+  .emoji {
+    font-size: 1.4rem;
+  }
+
+  .wishlist-item {
+    padding: 10px;
+    margin: 6px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .item-link {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+  }
+}

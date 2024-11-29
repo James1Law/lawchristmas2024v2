@@ -1,0 +1,52 @@
+.jump-to-list {
+    background: linear-gradient(145deg, white, #f0f7f1);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+    max-width: 1000px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(44, 85, 48, 0.1);
+  }
+  
+  .name-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .name-buttons button {
+    background: linear-gradient(135deg, #c41e3a 0%, #a01830 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 15px rgba(196, 30, 58, 0.2);
+  }
+  
+  .name-buttons button:hover {
+    background: linear-gradient(135deg, #2c5530 0%, #234527 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(44, 85, 48, 0.25);
+  }
+
+  @media (max-width: 768px) {
+    .jump-to-list {
+      padding: 15px 10px;
+      margin: 10px 5px;
+    }
+
+    .name-buttons {
+      gap: 8px;
+    }
+
+    .name-buttons button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      min-width: 80px;  /* Ensure buttons aren't too small */
+    }
+  }
