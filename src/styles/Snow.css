@@ -16,14 +16,17 @@
   border-radius: 50%;
   opacity: 0.8;
   animation: fall linear infinite;
+  left: random(100%);
 }
 
 @keyframes fall {
   0% {
     transform: translateY(-100vh) translateX(0);
+    left: random(100%);
   }
   100% {
-    transform: translateY(100vh) translateX(100px);
+    transform: translateY(100vh) translateX(20px);
+    left: random(100%);
   }
 }
 
@@ -33,6 +36,7 @@
   height: 8px;
   animation-duration: 15s;
   animation-delay: -7s;
+  left: random(100%);
 }
 
 .snow:nth-child(3n) {
@@ -40,6 +44,7 @@
   height: 6px;
   animation-duration: 10s;
   animation-delay: -3s;
+  left: random(100%);
 }
 
 .snow:nth-child(3n + 1) {
@@ -47,10 +52,12 @@
   height: 12px;
   animation-duration: 20s;
   animation-delay: -5s;
+  left: random(100%);
 }
 
 .snow:nth-child(7n) {
   opacity: 0.5;
   animation-duration: 12s;
   animation-delay: -1s;
+  left: random(100%);
 } 
