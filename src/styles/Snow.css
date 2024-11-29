@@ -1,0 +1,56 @@
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.snow {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh) translateX(0);
+  }
+  100% {
+    transform: translateY(100vh) translateX(100px);
+  }
+}
+
+/* Create different speeds and delays for each snowflake */
+.snow:nth-child(odd) {
+  width: 8px;
+  height: 8px;
+  animation-duration: 15s;
+  animation-delay: -7s;
+}
+
+.snow:nth-child(3n) {
+  width: 6px;
+  height: 6px;
+  animation-duration: 10s;
+  animation-delay: -3s;
+}
+
+.snow:nth-child(3n + 1) {
+  width: 12px;
+  height: 12px;
+  animation-duration: 20s;
+  animation-delay: -5s;
+}
+
+.snow:nth-child(7n) {
+  opacity: 0.5;
+  animation-duration: 12s;
+  animation-delay: -1s;
+} 

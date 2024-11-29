@@ -3,14 +3,17 @@ import './App.css';
 import WishListCard from './components/WishListCard';
 import JumpToList from './components/JumpToList';
 import ScrollToTop from './components/ScrollToTop';
+import Snow from './components/Snow';
+import Countdown from './components/Countdown';
 import { familyData } from './data/familyData';
 
 function App() {
   return (
     <div className="App">
+      <Snow />
       <header className="App-header">
         <h1>Law Family Christmas 2024</h1>
-        <h3>created by James Law</h3> 
+        <Countdown />
       </header>
       <JumpToList familyData={familyData} />
       <div className="wishlists-container">
