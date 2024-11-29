@@ -5,59 +5,46 @@
   right: 0;
   bottom: 0;
   pointer-events: none;
-  z-index: 1;
+  z-index: 0;
 }
 
 .snow {
-  position: fixed;
-  width: 10px;
-  height: 10px;
-  background: white;
-  border-radius: 50%;
-  opacity: 0.8;
-  animation: fall linear infinite;
-  left: random(100%);
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(-100vh) translateX(0);
-    left: random(100%);
-  }
-  100% {
-    transform: translateY(100vh) translateX(20px);
-    left: random(100%);
-  }
-}
-
-/* Create different speeds and delays for each snowflake */
-.snow:nth-child(odd) {
+  position: absolute;
   width: 8px;
   height: 8px;
-  animation-duration: 15s;
-  animation-delay: -7s;
-  left: random(100%);
+  background: #ffffff;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10px) translateX(0);
+  }
+  50% {
+    transform: translateY(50vh) translateX(20px);
+  }
+  100% {
+    transform: translateY(100vh) translateX(0);
+  }
+}
+
+/* Add variety to snowflakes */
+.snow:nth-child(2n) {
+  width: 6px;
+  height: 6px;
+  opacity: 0.6;
 }
 
 .snow:nth-child(3n) {
-  width: 6px;
-  height: 6px;
-  animation-duration: 10s;
-  animation-delay: -3s;
-  left: random(100%);
+  width: 4px;
+  height: 4px;
+  opacity: 0.4;
 }
 
-.snow:nth-child(3n + 1) {
-  width: 12px;
-  height: 12px;
-  animation-duration: 20s;
-  animation-delay: -5s;
-  left: random(100%);
-}
-
-.snow:nth-child(7n) {
-  opacity: 0.5;
-  animation-duration: 12s;
-  animation-delay: -1s;
-  left: random(100%);
+.snow:nth-child(4n) {
+  width: 10px;
+  height: 10px;
+  opacity: 0.9;
 } 

@@ -38,6 +38,7 @@ function App() {
           </div>
         ))}
       </div>
+      <div className="christmas-star-bottom">⭐</div>
       <ScrollToTop />
     </div>
   );

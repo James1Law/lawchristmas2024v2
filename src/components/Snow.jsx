@@ -2,21 +2,21 @@ import React from 'react';
 import '../styles/Snow.css';
 
 const Snow = () => {
-  const getRandomPosition = () => {
-    return {
-      left: `${Math.random() * 100}%`,
-      animationDuration: `${Math.random() * 10 + 5}s`,
-      animationDelay: `-${Math.random() * 5}s`
-    };
-  };
+  console.log('Snow component rendered');
+  
+  const getRandomStyles = () => ({
+    left: `${Math.random() * 100}%`,
+    animationDuration: `${Math.random() * 3 + 2}s`,  // Random duration between 2-5s
+    animationDelay: `-${Math.random() * 2}s`  // Random start time
+  });
 
   return (
     <div className="snow-container">
-      {[...Array(250)].map((_, index) => (
+      {[...Array(50)].map((_, index) => (  // Increased to 50 snowflakes
         <div 
           key={index} 
           className="snow" 
-          style={getRandomPosition()}
+          style={getRandomStyles()}
         />
       ))}
     </div>
