@@ -117,3 +117,8 @@
     margin-top: 5px;
   }
 }
+.bought-item {
+    text-decoration: line-through;
+    color: #888;
+  font-style: italic;
+}

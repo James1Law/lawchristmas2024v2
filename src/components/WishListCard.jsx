@@ -12,7 +12,7 @@ const WishListCard = ({ name, emoji, items, type, fullName }) => {
       </h2>
       <ul>
         {items.map((item, index) => (
-          <li key={index}>
+          <li key={index} className={item.bought ? 'bought-item' : ''}>
             {typeof item === 'string' ? (
               item
             ) : (

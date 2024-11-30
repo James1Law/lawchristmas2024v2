@@ -7,11 +7,13 @@ import ScrollToTop from './components/ScrollToTop';
 import Snow from './components/Snow';
 import Countdown from './components/Countdown';
 import { familyData } from './data/familyData';
+import SantaSleigh from './components/SantaSleigh';
 
 function App() {
   return (
     <div className="App">
       <Snow />
+      <SantaSleigh />
       <div className="twinkle" style={{ top: '10%', left: '20%' }}></div>
       <div className="twinkle" style={{ top: '30%', left: '80%' }}></div>
       <div className="twinkle" style={{ top: '70%', left: '15%' }}></div>

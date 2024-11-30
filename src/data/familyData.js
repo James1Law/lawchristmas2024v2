@@ -73,21 +73,22 @@ export const familyData = {
           emoji: "👧",
           type: "kids",
           items: [
-            "Long sleeve winter dress (twirly skirt)",
-            "Colourful leggings age 3-4",
-            "Socks size C8 +",
-            "Puzzles age 3+",
-            "Small money box",
-            "Toot toot track??",
-            "Colouring book or drawing pad",
-            "Moana doll",
-            "Play food for toy kitchen (not cake)",
-            "Magnetic tile set?",
-            "Playdoh set",
-            "Coat??",
-            "Books - eg Julia Donaldson",
-            "Bath toys",
-            "Board game - eg Snakes & ladders, Hungry Hippos, Pop up Pirate"
+            { text: "Long sleeve winter dress (twirly skirt)", bought: false },
+            { text: "Colourful leggings age 3-4", bought: false },
+            { text: "Socks size C8 +", bought: false },
+            { text: "Puzzles age 3+", bought: false },
+            { text: "Small money box", bought: false },
+            { text: "Toot toot track??", bought: false },
+            { text: "Colouring book or drawing pad", bought: false },
+            { text: "Moana doll", bought: false },
+            { text: "Play food for toy kitchen (not cake)", bought: false },
+            { text: "Magnetic tile set?", bought: false },
+            { text: "Playdoh set", bought: false },
+            { text: "Peppa pig Playdoh set", bought: true },
+            { text: "Coat??", bought: false },
+            { text: "Books - eg Julia Donaldson", bought: false },
+            { text: "Bath toys", bought: false },
+            { text: "Board game - eg Snakes & ladders, Hungry Hippos, Pop up Pirate", bought: false }
           ]
         },
         {
@@ -96,12 +97,13 @@ export const familyData = {
           emoji: "🎄",
           type: "baby-list",
           items: [
-            "Boyish toys - car, tractor, digger etc!",
-            "An outfit - age 9-12 months",
-            "A winter hat - age 1-2",
-            "Teething toys",
-            "Stacking toys",
-            "Bath toys"
+            { text: "Boyish toys - car, tractor, digger etc!", bought: false },
+            { text: "Toy car - teething toy", bought: true },
+            { text: "An outfit - age 9-12 months", bought: false },
+            { text: "A winter hat - age 1-2", bought: false },
+            { text: "Teething toys", bought: false },
+            { text: "Stacking toys", bought: false },
+            { text: "Bath toys", bought: false }
           ]
         }
       ]
@@ -147,11 +149,12 @@ export const familyData = {
           emoji: "🎀",
           type: "kids",
           items: [
-            "Shoes - boots, trainers, party shoes size 1 or 1.5",
-            "Leggings or skinny jeans - size 8-9 or just 9 for the length!",
-            "Tights - any coloured ones to wear under skirts and dresses age 8-9",
-            "Reading books - Helen Peter's \"Jasmine\" / Rainbow Magic sweet fairy (Madeleine the cookie fairy!)",
-            "Super-duper squish ball"
+            { text: "Shoes - boots, trainers, party shoes size 1 or 1.5", bought: false },
+            { text: "Leggings or skinny jeans - size 8-9 or just 9 for the length!", bought: false },
+            { text: "Tights - any coloured ones to wear under skirts and dresses age 8-9", bought: false },
+            { text: "Reading books - Helen Peter's \"Jasmine\" / Rainbow Magic sweet fairy", bought: true },
+            { text: "Super-duper squish ball", bought: false },
+            { text: "Squishmallow Marla the pink ladybug", bought: true }
           ]
         },
         {
@@ -160,14 +163,15 @@ export const familyData = {
           emoji: "❄️",
           type: "kids",
           items: [
-            "Anything Elsa - new Elsa dressing up costume, Elsa jumper anything really!",
-            "Slipper boots - size 10",
-            "Dress - party, casual/t-shirt size age 5-6",
-            "Leggings - Fat Face size age 5-6 (or 5)",
-            "Elsa dress, hair accessories",
-            "Pyjamas - Frozen/ballerina/fairy/rainbow aged 5-6",
-            "Foil art - \"Scholastics\" brand",
-            "Writing or reading books"
+            { text: "Anything Elsa - new Elsa dressing up costume, Elsa jumper anything really!", bought: false },
+            { text: "Slipper boots - size 10", bought: false },
+            { text: "Dress - party, casual/t-shirt size age 5-6", bought: false },
+            { text: "Leggings - Fat Face size age 5-6 (or 5)", bought: false },
+            { text: "Elsa dress, hair accessories", bought: false },
+            { text: "Pyjamas - Frozen/ballerina/fairy/rainbow aged 5-6", bought: false },
+            { text: "Elsa Pyjamas", bought: true },
+            { text: "Foil art - \"Scholastics\" brand", bought: false },
+            { text: "Writing or reading books", bought: false }
           ]
         },
         {
@@ -176,13 +180,14 @@ export const familyData = {
           emoji: "🌟",
           type: "baby-girl-list",
           items: [
-            "Bibs",
-            "Dress/outfit - aged 9-12mo",
-            "Rattle or musical instrument - something to shake!",
-            "Socks - aged 6-12mo",
-            "Spinner fidget toy - to stick on table/windows/bath etc",
-            "Bath toys - preferably ones that don't hold water as these go mouldy so quickly!",
-            "Musical tractor and trailer with animals"
+            { text: "Bibs", bought: false },
+            { text: "Dress/outfit - aged 9-12mo", bought: false },
+            { text: "Rattle or musical instrument - something to shake!", bought: false },
+            { text: "Musical instrument set", bought: true },
+            { text: "Socks - aged 6-12mo", bought: false },
+            { text: "Spinner fidget toy - to stick on table/windows/bath etc", bought: false },
+            { text: "Bath toys - preferably ones that don't hold water as these go mouldy so quickly!", bought: false },
+            { text: "Musical tractor and trailer with animals", bought: false }
           ]
         }
       ]
@@ -196,7 +201,7 @@ export const familyData = {
           emoji: "✨",
           type: "adult",
           items: [
-            "List coming soon..."
+            "List coming soon...come on Emma!"
           ]
         },
         {
@@ -205,7 +210,7 @@ export const familyData = {
           emoji: "🎅",
           type: "adult",
           items: [
-            "List coming soon..."
+            "List coming soon...Where's your list Jamesey?!"
           ]
         },
         {
@@ -214,21 +219,22 @@ export const familyData = {
           emoji: "🎮",
           type: "teen-boy",
           items: [
-            "Bath rugby premiership rugby tickets",
-            "Gain the edge socks size 5",
-            "Terry's chocolate oranges",
-            "Loads of sweets",
-            "Bath rugby or England rugby mural",
-            "England rugby iPhone 12 phone case",
-            "Voucher for theme park",
-            "Music boxing machine",
-            "Supercar driving experience voucher",
-            "LED lights",
-            "Pants",
-            "Gloves",
-            "Fcuk gel and Lynx shower gel",
-            "SAMSUNG Odyssey G5 LS27DG502EUXXU Quad HD 27\" IPS LCD Gaming Monitor - Black",
-            "CORSAIR 4 in 1 Gaming Bundle - 2024 Edition"
+            { text: "Bath rugby premiership rugby tickets", bought: false },
+            { text: "Bath rugby poster", bought: true },
+            { text: "Gain the edge socks size 5", bought: false },
+            { text: "Terry's chocolate oranges", bought: false },
+            { text: "Loads of sweets", bought: false },
+            { text: "Bath rugby or England rugby mural", bought: false },
+            { text: "England rugby iPhone 12 phone case", bought: false },
+            { text: "Voucher for theme park", bought: false },
+            { text: "Music boxing machine", bought: false },
+            { text: "Supercar driving experience voucher", bought: false },
+            { text: "LED lights", bought: false },
+            { text: "Pants", bought: false },
+            { text: "Gloves", bought: false },
+            { text: "Fcuk gel and Lynx shower gel", bought: false },
+            { text: "SAMSUNG Odyssey G5 LS27DG502EUXXU Quad HD 27\" IPS LCD Gaming Monitor - Black", bought: false },
+            { text: "CORSAIR 4 in 1 Gaming Bundle - 2024 Edition", bought: false }
           ]
         },
         {
@@ -237,20 +243,20 @@ export const familyData = {
           emoji: "🎅🏽",
           type: "kids",
           items: [
-            "Mist hatsilk and base layer",
-            "Sol de janeiro 68",
-            "A dressing gown",
-            "Lipgloss",
-            "Schleich riding center starter 🐴",
-            "This esme hoodie",
-            "This esme yearbook 2025",
-            "Heatless curlers",
-            "Casper the Connemara by Esme Higgs",
-            "A pony SE phone case",
-            "Lots of sweets 🍭",
-            "Lots of chocolate 🍫",
-            "Mini highlighter pens",
-            "Trainers size 5 (Nike)"
+            { text: "Mist hatsilk and base layer", bought: false },
+            { text: "Sol de janeiro 68", bought: false },
+            { text: "A dressing gown", bought: false },
+            { text: "Lipgloss", bought: false },
+            { text: "Schleich riding center starter 🐴", bought: false },
+            { text: "This esme hoodie", bought: false },
+            { text: "This esme yearbook 2025", bought: false },
+            { text: "Heatless curlers", bought: true },
+            { text: "Casper the Connemara by Esme Higgs", bought: false },
+            { text: "A pony SE phone case", bought: false },
+            { text: "Lots of sweets 🍭", bought: false },
+            { text: "Lots of chocolate 🍫", bought: false },
+            { text: "Mini highlighter pens", bought: true },
+            { text: "Trainers size 5 (Nike)", bought: false }
           ]
         },
         {
@@ -259,11 +265,12 @@ export const familyData = {
           emoji: "🐴",
           type: "kids",
           items: [
-            "Lemieux Indigo headcollar and Leadrope size Cob",
-            "Stirrups and stirrup leathers",
-            "Lemieux mini hat silk indigo",
-            "Lemieux Mini Base Layer indigo size 8-9",
-            "Pony treats"
+            { text: "Lemieux Indigo headcollar and Leadrope size Cob", bought: false },
+            { text: "Stirrups and stirrup leathers", bought: false },
+            { text: "Lemieux mini hat silk indigo", bought: false },
+            { text: "Lemieux Mini Base Layer indigo size 8-9", bought: false },
+            { text: "Pony treats", bought: false },
+            { text: "Horse painting crafty set", bought: true }
           ]
         }
       ]
