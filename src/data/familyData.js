@@ -164,9 +164,9 @@ export const familyData = {
           type: "kids",
           items: [
             { text: "Anything Elsa - new Elsa dressing up costume, Elsa jumper anything really!", bought: false },
-            { text: "Slipper boots - size 10", bought: false },
+            { text: "Slipper boots - size 10", bought: true },
             { text: "Dress - party, casual/t-shirt size age 5-6", bought: false },
-            { text: "Leggings - Fat Face size age 5-6 (or 5)", bought: false },
+            { text: "Leggings - Fat Face size age 5-6 (or 5)", bought: true },
             { text: "Elsa dress, hair accessories", bought: false },
             { text: "Pyjamas - Frozen/ballerina/fairy/rainbow aged 5-6", bought: false },
             { text: "Elsa Pyjamas", bought: true },
@@ -243,7 +243,8 @@ export const familyData = {
           emoji: "🎅🏽",
           type: "kids",
           items: [
-            { text: "Mist hatsilk and base layer", bought: false },
+            { text: "Mist hatsilk", bought: false },
+            { text: "Base layer in steel rose", bought: true },
             { text: "Sol de janeiro 68", bought: false },
             { text: "A dressing gown", bought: false },
             { text: "Lipgloss", bought: false },
@@ -265,7 +266,8 @@ export const familyData = {
           emoji: "🐴",
           type: "kids",
           items: [
-            { text: "Lemieux Indigo headcollar and Leadrope size Cob", bought: false },
+            { text: "Lemieux Indigo headcollar", bought: true },
+            { text: "Leadrope size Cob", bought: false },
             { text: "Stirrups and stirrup leathers", bought: false },
             { text: "Lemieux mini hat silk indigo", bought: false },
             { text: "Lemieux Mini Base Layer indigo size 8-9", bought: false },
