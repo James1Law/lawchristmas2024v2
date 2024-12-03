@@ -211,7 +211,7 @@ export const familyData = {
           emoji: "🎅",
           type: "adult",
           items: [
-            { text: "England Rugby Hoodie", bought: true }
+            { text: "England Rugby Hoodie", bought: true },
             { text: "England Rugby Shirt", bought: true }
           ]
         },
