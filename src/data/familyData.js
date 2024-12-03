@@ -150,7 +150,7 @@ export const familyData = {
           emoji: "🎀",
           type: "kids",
           items: [
-            { text: "Shoes - boots, trainers, party shoes size 1 or 1.5", bought: false },
+            { text: "Shoes - boots, trainers, size 1 or 1.5", bought: false },
             { text: "Shoes - party shoes size 1 or 1.5", bought: true },
             { text: "Leggings or skinny jeans - size 8-9 or just 9 for the length!", bought: false },
             { text: "Tights - any coloured ones to wear under skirts and dresses age 8-9", bought: false },
