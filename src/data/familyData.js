@@ -80,7 +80,8 @@ export const familyData = {
             { text: "Small money box", bought: false },
             { text: "Toot toot track??", bought: false },
             { text: "Colouring book or drawing pad", bought: false },
-            { text: "Moana doll", bought: false },
+            { text: "Moana doll", bought: true },
+            { text: "Moana hair brush", bought: true },
             { text: "Play food for toy kitchen (not cake)", bought: false },
             { text: "Magnetic tile set?", bought: false },
             { text: "Playdoh set", bought: false },
@@ -166,7 +167,7 @@ export const familyData = {
             { text: "Anything Elsa - new Elsa dressing up costume, Elsa jumper anything really!", bought: false },
             { text: "Slipper boots - size 10", bought: true },
             { text: "Dress - party, casual/t-shirt size age 5-6", bought: false },
-            { text: "Leggings - Fat Face size age 5-6 (or 5)", bought: true },
+            { text: "2 x Leggings - Fat Face size age 5-6 (or 5)", bought: true },
             { text: "Elsa dress, hair accessories", bought: false },
             { text: "Pyjamas - Frozen/ballerina/fairy/rainbow aged 5-6", bought: false },
             { text: "Elsa Pyjamas", bought: true },
@@ -210,7 +211,8 @@ export const familyData = {
           emoji: "🎅",
           type: "adult",
           items: [
-            "List coming soon...Where's your list Jamesey?!"
+            { text: "England Rugby Hoodie", bought: true }
+            { text: "England Rugby Shirt", bought: true }
           ]
         },
         {
@@ -225,9 +227,9 @@ export const familyData = {
             { text: "Terry's chocolate oranges", bought: false },
             { text: "Loads of sweets", bought: false },
             { text: "Bath rugby or England rugby mural", bought: false },
-            { text: "England rugby iPhone 12 phone case", bought: false },
+            { text: "England rugby iPhone 12 phone case", bought: true },
             { text: "Voucher for theme park", bought: false },
-            { text: "Music boxing machine", bought: false },
+            { text: "Music boxing machine", bought: true },
             { text: "Supercar driving experience voucher", bought: false },
             { text: "LED lights", bought: false },
             { text: "Pants", bought: false },
@@ -246,7 +248,7 @@ export const familyData = {
             { text: "Mist hatsilk", bought: false },
             { text: "Base layer in steel rose", bought: true },
             { text: "Sol de janeiro 68", bought: false },
-            { text: "A dressing gown", bought: false },
+            { text: "A dressing gown", bought: true },
             { text: "Lipgloss", bought: false },
             { text: "Schleich riding center starter 🐴", bought: false },
             { text: "This esme hoodie", bought: false },
