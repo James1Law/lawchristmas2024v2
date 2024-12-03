@@ -151,6 +151,7 @@ export const familyData = {
           type: "kids",
           items: [
             { text: "Shoes - boots, trainers, party shoes size 1 or 1.5", bought: false },
+            { text: "Shoes - party shoes size 1 or 1.5", bought: true },
             { text: "Leggings or skinny jeans - size 8-9 or just 9 for the length!", bought: false },
             { text: "Tights - any coloured ones to wear under skirts and dresses age 8-9", bought: false },
             { text: "Reading books - Helen Peter's \"Jasmine\" / Rainbow Magic sweet fairy", bought: true },
@@ -272,7 +273,7 @@ export const familyData = {
             { text: "Leadrope size Cob", bought: false },
             { text: "Stirrups and stirrup leathers", bought: false },
             { text: "Lemieux mini hat silk indigo", bought: false },
-            { text: "Lemieux Mini Base Layer indigo size 8-9", bought: false },
+            { text: "Lemieux Mini Base Layer indigo size 8-9", bought: true },
             { text: "Pony treats", bought: false },
             { text: "Horse painting crafty set", bought: true }
           ]
