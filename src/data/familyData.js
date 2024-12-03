@@ -272,7 +272,7 @@ export const familyData = {
             { text: "Lemieux Indigo headcollar", bought: true },
             { text: "Leadrope size Cob", bought: false },
             { text: "Stirrups and stirrup leathers", bought: false },
-            { text: "Lemieux mini hat silk indigo", bought: false },
+            { text: "Lemieux mini hat silk indigo", bought: true },
             { text: "Lemieux Mini Base Layer indigo size 8-9", bought: true },
             { text: "Pony treats", bought: false },
             { text: "Horse painting crafty set", bought: true }
