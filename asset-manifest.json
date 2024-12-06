@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lawchristmas2024v2/static/css/main.0aacd4e9.css",
-    "main.js": "/lawchristmas2024v2/static/js/main.8302ceab.js",
+    "main.js": "/lawchristmas2024v2/static/js/main.ab6236c9.js",
     "index.html": "/lawchristmas2024v2/index.html",
     "main.0aacd4e9.css.map": "/lawchristmas2024v2/static/css/main.0aacd4e9.css.map",
-    "main.8302ceab.js.map": "/lawchristmas2024v2/static/js/main.8302ceab.js.map"
+    "main.ab6236c9.js.map": "/lawchristmas2024v2/static/js/main.ab6236c9.js.map"
   },
   "entrypoints": [
     "static/css/main.0aacd4e9.css",
-    "static/js/main.8302ceab.js"
+    "static/js/main.ab6236c9.js"
   ]
 }
