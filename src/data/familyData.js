@@ -182,12 +182,12 @@ export const familyData = {
           emoji: "🌟",
           type: "baby-girl-list",
           items: [
-            { text: "Bibs", bought: false },
+            { text: "Bibs", bought: true },
             { text: "Dress/outfit - aged 9-12mo", bought: false },
             { text: "Rattle or musical instrument - something to shake!", bought: false },
             { text: "Musical instrument set", bought: true },
             { text: "Socks - aged 6-12mo", bought: false },
-            { text: "Spinner fidget toy - to stick on table/windows/bath etc", bought: false },
+            { text: "Spinner fidget toy - to stick on table/windows/bath etc", bought: true },
             { text: "Bath toys - preferably ones that don't hold water as these go mouldy so quickly!", bought: false },
             { text: "Musical tractor and trailer with animals", bought: false }
           ]
@@ -250,7 +250,7 @@ export const familyData = {
             { text: "Base layer in steel rose", bought: true },
             { text: "Sol de janeiro 68", bought: false },
             { text: "A dressing gown", bought: true },
-            { text: "Lipgloss", bought: false },
+            { text: "Lipgloss", bought: true },
             { text: "Schleich riding center starter 🐴", bought: false },
             { text: "This esme hoodie", bought: true },
             { text: "This esme yearbook 2025", bought: false },
